@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #327f1b;
+    color: gold;
+    padding: 20px 0;
+    text-align: center;
+}
+
+form {
+    align-self: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+figure {
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+nav {
+    background-color: #265f14;
+    color: #fff;
+}
+
+.activePage {
+    background-color: #47b425;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #47b425;
+}
+
+nav .logout a:hover {
+    background-color: #b03a2e;
+}
+
+nav .login a:hover {
+    background-color: #47b425;
+}
+
+main {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.radio p {
+    display: flex;
+    align-items: center;
+}
+
+.radio input[type="radio"] {
+    margin-right: 10px;
+}
+
+.button {
+    color: #fff;
+    background-color: #1a5276;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #154360;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #265f14;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    padding: 0.5em;
+    text-align: center;
+    background-color: #327f1b;
+    color: gold;
+}
