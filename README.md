@@ -10,10 +10,12 @@ Hackathon participants can access the page by visiting the url and can submit he
 PHP code taking care of everything. 
 
 ### Note:
-connect-DB.php is not included in this repo for security purposes. If you plan on remaking this project: make a file called connect-DB.php and include the following code, filling in the Xs for database name, usename and password.
+connect-DB.php is not included in this repo for security purposes. If you plan on remaking this project: make a file and include the following code, filling in the Xs for database name, usename and password.
 
 ...
   '''php
+
+    connect-DB.php
   
     <?php
     $databaseName = 'XXXXXXXXXXX';
